@@ -1,50 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Exo 2', sans-serif;
 }
-.Conteiner{
+
+.Container {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
     padding: 20px;
-   
 }
 
-.raboti{
-    width: 1440px;
-    height: 618px;
-    top: 1089px;
-    left: 101px;
-    gap: 0px;
-    border-radius: 10px 0px 0px 0px;
-    opacity: 0px;
-        .ra{
-            padding-left: 25px;
-            padding-top: 67px;
-            h3{
-                width: 687px;
-                height: 49px;
-                top: 1089px;
-                left: 101px;
+.raboti {
+    width: 100%; // Adjust as needed
+    height: auto; // Adjust as needed
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+    .ra {
+        h3 {
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            text-align: left;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            padding-top: 32px;
+        }
+    }
+
+    .cards {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .card {
+            width: 393px;
+            height: 440px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px 10px 0 0;
+            }
+
+            h3 {
+                width: 327px;
+                height: 21px;
+                top: 1538px;
+                left: 556px;
                 gap: 0px;
                 opacity: 0px;
                 font-family: Exo 2;
-                font-size: 48px;
+                font-size: 20px;
                 font-weight: 600;
-                line-height: 60px;
+                line-height: 27px;
                 text-align: left;
+                padding-left: 20px;
+                                
             }
-            p{
-                width: 667px;
+
+            p {
+                width: 291px;
                 height: 41px;
-                top: 1170px;
-                left: 101px;
+                top: 1575px;
+                left: 556px;
                 gap: 0px;
                 opacity: 0px;
                 font-family: PT Sans;
@@ -52,80 +86,76 @@
                 font-weight: 400;
                 line-height: 24px;
                 text-align: left;
-                padding-top: 32px;
+                padding-left: 20px;
+                
+            }
 
+            h5 {
+                padding-top: 50px;
+                padding-left: 20px;
+                color: #363738;
+                cursor: pointer;
+                text-decoration: underline #FFCE50 4px;
+                padding-top: -32px;
             }
         }
-        .cards{
-            display: flex;
-            gap: 30px;
-            margin-right: 110px;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            .card{
-                flex-wrap: wrap;
-                width: 393px;
-                height: 440px;
-                top: 1267px;
-                left: 101px;
+    }
+
+    .etap {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: left;
+        padding-left: 2px;
+    }
+
+    .kard {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+        // justify-content: center;
+        gap: 56px;
+        width: 100%;
+        margin-top: 20px;
+        .ph {
+            padding-left: 96px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+
+        .ot {
+
+            h3 {
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 25px;
+                text-align: left;
+            }
+
+            .line {
+                margin-top: 20px;
+                width: 86px;
+                border: 3px solid #FFCE50;
+            }
+
+            p {
+                width: 568px;
+                height: 88px;
+                top: 1971px;
+                left: 633px;
                 gap: 0px;
-                border-radius: 10px 0px 0px 0px;
                 opacity: 0px;
-                // background: lawngreen;
-                   img{
-                    width: 393px;
-                    height: 247px;
-                    top: 1267px;
-                    left: 101px;
-                    gap: 0px;
-                    opacity: 0px;
-
-                   }
-                   h3{
-                    width: 327px;
-                    height: 21px;
-                    top: 1538px;
-                    left: 133px;
-                    gap: 0px;
-                    opacity: 0px;
-                    font-family: Exo 2;
-                    font-size: 20px;
-                    font-weight: 600;
-                    line-height: 27px;
-                    text-align: left;
-                    padding-left: 20px;
-
-                   }
-                   p{
-                    width: 291px;
-                    height: 41px;
-                    top: 1575px;
-                    left: 133px;
-                    gap: 0px;
-                    opacity: 0px;
-                    font-family: PT Sans;
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 24px;
-                    text-align: left;
-                    padding-top: 16px;
-                    padding-left: 20px;
-                   }
-                   h5{
-                    padding-top: 50px;
-                    padding-left: 20px;
-                    color:#363738;
-                    // width: 92px;
-                    height: 27px;
-                    top: 1648px;
-                    left: 133px;
-                    gap: 0px;
-                    opacity: 0px;
-                    text-decoration:underline #FFCE50 4px;
-
-                   }
-
+                color: rgb(107, 107, 108);
+                font-family: PT Sans;
+                font-size:clamp(4px,100%,16px) ;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0%;
+                text-align: left; 
+                padding-top: 32px;     
             }
         }
+    }
 }
