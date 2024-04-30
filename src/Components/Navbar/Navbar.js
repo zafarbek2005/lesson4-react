@@ -11,7 +11,8 @@ function Navbar() {
     };
 
     return (
-        <div className="Navbar">
+    <header>
+                <div className="Navbar">
             <div className="Navbar-container">
                 <div className="Navbar-logo">
                     <a href="#">
@@ -42,6 +43,7 @@ function Navbar() {
                 </div>
             </div>
         </div>
+    </header>
     );
 }
 
